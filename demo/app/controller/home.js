@@ -6,7 +6,6 @@ class HomeController extends Controller {
   async index() {
     const { ctx } = this;
     const result = await ctx.service.home.index();
-    console.log(result)
     // ctx.body = 'hi test, egg' + JSON.stringify(result);
     await ctx.render('index.html', {
       address: {
