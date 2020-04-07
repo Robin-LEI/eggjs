@@ -35,3 +35,6 @@ $ npm stop
 # 文档
 [文档地址](https://eggjs.org/zh-cn/intro/quickstart.html)
 
+# Controller
+1. 处理业务逻辑
+2. 命名规则-开发规范
