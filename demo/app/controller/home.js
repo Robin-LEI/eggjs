@@ -5,7 +5,9 @@ const Controller = require('egg').Controller;
 class HomeController extends Controller {
   async index() {
     const { ctx } = this;
-    ctx.body = 'hi test, egg';
+    const result = await ctx.service.home.index();
+    console.log(result)
+    ctx.body = 'hi test, egg' + JSON.stringify(result);
   }
 }
 
