@@ -47,3 +47,10 @@ config.security = {
   },
 };
 ```
+
+[安全规范](https://eggjs.org/zh-cn/core/security.html#%E5%AE%89%E5%85%A8%E5%A8%81%E8%83%81csrf%E7%9A%84%E9%98%B2%E8%8C%83)
+
+[模板渲染](https://eggjs.org/zh-cn/core/view.html#mobileAside)
+
+[模板渲染-ejs](https://github.com/eggjs/egg-view-ejs)
+

@@ -7,7 +7,13 @@ class HomeController extends Controller {
     const { ctx } = this;
     const result = await ctx.service.home.index();
     console.log(result)
-    ctx.body = 'hi test, egg' + JSON.stringify(result);
+    // ctx.body = 'hi test, egg' + JSON.stringify(result);
+    await ctx.render('index.html', {
+      address: {
+        location: '上海'
+      },
+      list: result
+    })
   }
 }
 
