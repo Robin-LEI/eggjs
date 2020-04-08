@@ -7,6 +7,7 @@
       @load="onLoad"
       >
       <van-card
+        @click="onClick(item.id)"
         v-for="item in list"
         :key="item.id"
         :desc="item.summary"
@@ -59,6 +60,9 @@ export default {
   methods: {
     onLoad () {
       this.loading = false
+    },
+    onClick (id) {
+      this.$router.push('/detail/' + id)
     }
   }
 }
