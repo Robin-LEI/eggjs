@@ -1,6 +1,6 @@
 # demo
 
-
+# npm init egg --type=simple
 
 ## QuickStart
 
