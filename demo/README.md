@@ -54,3 +54,5 @@ config.security = {
 
 [模板渲染-ejs](https://github.com/eggjs/egg-view-ejs)
 
+[vant-ui](https://youzan.github.io/vant/#/zh-CN/intro)
+
